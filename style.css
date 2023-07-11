@@ -20,7 +20,7 @@ header {
   color: #fff;
 }
 .section-texto {
-  width: 600px;
+  max-width: 600px;
   margin: auto;
   padding: 10px 0px;
   border-radius: 4px;
