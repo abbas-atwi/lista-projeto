@@ -130,3 +130,18 @@ header {
   font-size: 2rem;
   text-transform: uppercase;
 }
+
+@media (max-width: 600px) {
+  .section-box h1 {
+    font-size: 18px;
+  }
+  .section-grid {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .section-texto {
+    min-width: 100%;
+  }
+}
