@@ -130,7 +130,14 @@ header {
   font-size: 2rem;
   text-transform: uppercase;
 }
-
+.section-lista-produto h3 {
+  background-color: rgb(34, 187, 34);
+  padding: 10px 8px;
+  border-radius: 4px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
 @media (max-width: 600px) {
   .section-box h1 {
     font-size: 18px;
