@@ -40,18 +40,26 @@ header {
   width: 50%;
   padding: 10px 0px;
   border: 1px solid #222;
+  text-transform: uppercase;
+  border-radius: 4px;
+  /* overflow: hidden; */
 }
 .section-form span {
   display: flex;
   position: absolute;
   display: flex;
   align-items: center;
+  font-size: 12px;
   /* height: 50px; */
   /* left: 0; */
 }
 .section-form input:focus ~ span,
 .section-form input:valid ~ span {
-  margin-top: -60px;
+  margin-top: -65px;
+  background-color: rgba(255, 0, 0, 0.603);
+  padding: 3px;
+  border-radius: 4px;
+  transition: border 1s ease-in;
   color: #eee;
   transition: 0.4s;
 }
